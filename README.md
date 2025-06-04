@@ -1,6 +1,6 @@
 <div align="center" style="max-width: 100%; overflow-x: auto; margin: 0 auto;">
   <div style="text-align: center; padding: 0 10px; width: 100%;">
-    <h1 style="font-size: clamp(24px, 5vw, 36px); margin: 0 auto;">CallTrace</h1>
+    <h1 style="font-size: clamp(24px, 5vw, 36px); margin: 0 auto;">CallTracing</h1>
   </div>
 
 
@@ -11,7 +11,7 @@
 
   <div style="text-align: center; margin: 20px auto; width: 100%;">
     <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 8px;">
-      <img src="https://img.shields.io/pypi/v/call-trace?color=blue&label=Latest%20Version" alt="PyPI Version">
+      <img src="https://img.shields.io/pypi/v/calltracing?color=blue&label=Latest%20Version" alt="PyPI Version">
       <img src="https://img.shields.io/badge/Python-3.11%2B-blue" alt="Python 3.8+">
       <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License">
     </div>
