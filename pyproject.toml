@@ -1,0 +1,41 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "calltracer"
+version = "1.0.0"
+description = "Minimalistic lib for trace calls"
+authors = ["anybody"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/user_with_username/calltracer"
+repository = "https://github.com/user_with_username/calltracer"
+documentation = "https://github.com/user_with_username/calltracer/"
+keywords = [
+    "trace",
+    "calls",
+    "lib",
+    "sync",
+    "inspect"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Communications :: Chat",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[poetry.group.dev.dependencies]
+pytest = "^7.0"
+pytest-asyncio = "^0.23.0"
+black = "^24.1.0"
+ruff = "^0.2.0"
+mypy = "^1.5.0"
+flake8 = "^6.1.0"
