@@ -3,7 +3,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "calltracer"
+name = "calltracing"
 version = "1.0.0"
 description = "Minimalistic lib for trace calls"
 authors = ["anybody"]
