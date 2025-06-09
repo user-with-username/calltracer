@@ -25,7 +25,6 @@ A lightweight Python utility to track and log call hierarchy with class and meth
 - Automatically detects calling class and method names
 - Tracks nested call paths within the same class
 - Simple integration with existing code
-- Clean formatted output for debugging
 
 ## Installation
 
